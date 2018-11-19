@@ -1,0 +1,547 @@
+header {
+	background-color:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#11ea02+0,3f9384+99 */
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#11ea02+0,3f9384+99 */
+background: #11ea02; /* Old browsers */
+background: -moz-linear-gradient(top, #11ea02 0%, #3f9384 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #11ea02 0%,#3f9384 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #11ea02 0%,#3f9384 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11ea02', endColorstr='#3f9384',GradientType=0 ); /* IE6-9 */
+	
+}
+body {
+	background-color:white;
+}
+li {
+	text-align: center;
+	font:Arial,bold  sans-serif;
+	line-height: 40px;
+	display: inline-block;
+	width: 200px;
+	  }
+
+	 /* começa as letras*/
+a {
+	color: white;
+	font:Arial,bold;
+		}
+p {
+	text-align: left;
+	float: left;
+}
+
+h3 {
+
+}
+
+/*  acaba as letras*/
+
+/* começaquem somos */
+
+iframe#video {
+   	
+   	
+   	margin: 20px;
+   
+
+}
+div#texto p {
+	text-align:left; 
+	margin: 100px;
+	margin-top: -100px;
+	width: -20px;
+	position: relative;
+
+}
+div#texto h1{
+	text-align:left ;
+	margin: 100px;
+	height-top: -100px;
+	color:green;
+	position: relative;
+	
+}
+
+/* acaba quem somos */
+
+
+/*  começa as imagens*/
+
+div#fundadores h1{
+	color:green;
+	text-align: center;
+}
+
+
+ul#album{
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+	display: inline-block;
+}
+
+ul#album li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#album li:hover span {
+	opacity: 1;
+	text-decoration: none;
+}
+
+ul#album li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 2px solid  color: red;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+	border-radius: 5%;
+}
+
+
+ul#album li#foto01{
+	background: url(jackson.jpg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+
+	  }
+
+ul#album li#foto01:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+	 
+		 }
+
+	  ul#album li#foto02{
+	background: url(dennis.jpg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+	  }
+
+ul#album li#foto02:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+	text-decoration:none;
+}
+
+	  ul#album1 li#foto03{
+	background: url(murilo.jpg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+	  }
+ul#album1 li#foto03:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+	  ul#album1 li#foto04{
+	background: url(mauro.jpg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+	  }
+
+ul#album1 li#foto04:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+	border-radius: 10px
+	text-decoration:underline;
+}
+
+	   ul#album2 li#foto05{
+	background: url(caique1.jpeg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+	  }
+
+ul#album li#foto05:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+/* imagem1*/
+ul#album a {
+	text-decoration:none;
+	text-transform: none;
+	
+}
+
+ul#album a:hover{
+	text-decoration:none;
+	color: green;
+	background-color: black;
+	}
+
+	ul#album1{
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+	display: inline-block;
+}
+
+ul#album1 li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album1 li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#album1 li:hover span {
+	opacity: 1;
+	text-decoration: none;
+}
+
+ul#album1 li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 2px solid  color: red;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+	border-radius: 5%;
+}
+
+
+	ul#album1 li#foto05:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album1 a {
+	text-decoration:none;
+	color:white; /*mudar */
+	text-transform: none;
+}
+
+ul#album1 a:hover{
+	color: green;
+	background-color: black;
+	text-decoration:none;
+	}
+
+/* FINAL DA IMAGEM 1 */
+
+
+
+	   ul#album2 li#foto05{
+	background: url(caique1.jpeg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+	  }
+
+ul#album2 li#foto05:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+/* imagem1*/
+ul#album2 a {
+	text-decoration:none;
+	color:white; /*mudar */
+	text-transform: none;
+}
+
+ul#album2 a:hover{
+	text-decoration:none;
+	color: green;
+	background-color: black;
+	}
+
+	ul#album2{
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+	display: inline-block;
+}
+
+ul#album2 li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album2 li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#album2 li:hover span {
+	opacity: 1;
+	text-decoration: none;
+}
+
+ul#album2 li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 2px solid  color: red;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+	border-radius: 5%;
+}
+
+
+	ul#album2 li#foto05:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+/* COMEÇO DA IMAGEM 2*/ 
+
+
+/* FINAL DA IMAGEM 2*/ 
+/*  termina as imagens*/
+/* menuu */
+
+nav#menu ul {
+	text-transform: uppercase;
+	list-style: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#11ea02+0,3f9384+99 */
+background: #11ea02; /* Old browsers */
+background: -moz-linear-gradient(top, #11ea02 0%, #3f9384 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #11ea02 0%,#3f9384 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #11ea02 0%,#3f9384 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11ea02', endColorstr='#3f9384',GradientType=0 ); /* IE6-9 */
+}
+
+nav#menu li {
+	text-align: center;
+	font:Arial, bold  sans-serif;
+	line-height: 40px;
+	display: inline-block;
+	width: 200px;
+	margin: 4px
+	transition:background-color 0.4s;
+	
+}
+nav#menu li:hover {
+	background-color:/
+	border-radius: 10px	
+}
+
+nav#menu a {
+	color:white; /*mudar */
+	text-transform: none;
+	text-decoration:none;
+}
+nav#menu a:hover{
+	color: black;
+	text-decoration:underline;
+}
+
+	/* menuu*/
+
+/*começo de foto  */
+
+iframe#tube {
+	margin-top: 20px;
+}
+
+div#fundadores h1{
+	color:green;
+	text-align: center;
+}
+
+ul#album{
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+	
+}
+
+ul#album li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#album li:hover span {
+	opacity: 1;
+	text-decoration: none;
+}
+
+ul#album li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 2px solid  color: red;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+	border-radius: 5%;
+}
+
+
+ul#album li#loja1{
+	background: url(x20130321_125442_R.-Morro-da-Conceicao.jpg.pagespeed.ic.nf4qD0xdM4.jpg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+
+	  }
+
+ul#album li#loja1:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+	 
+		 }
+
+	  ul#album li#loja2{
+	background: url(empresa-de-coleta-de-lixo-eletr%C3%B4nico.jpg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+	  }
+
+ul#album li#loja2:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+	text-decoration:underline;
+}
+
+	  ul#album li#loja3{
+	background: url(1ab7c297-b549-46eb-9214-63aedad6baaf_gana.jpg) no-repeat; 
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+	  }
+ul#album li#loja03:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album a {
+	text-decoration:underline;
+	color:white; /*mudar */
+	text-transform: none;
+}
+
+ul#album a:hover{
+	color:
+	text-decoration:underline;
+	}
+/*  termina as imagens*/
+
+div#quemsomos {
+	text-decoration:none;
+	text-transform: none;
+	list-style: none;
+}
+
+
+/*inicil do rodape*/
+footer{
+width: 101%;
+margin: -0% -1%;
+margin-bottom: -1%;
+background-color:black;
+position: absolute;
+}
+
+div#rodape{
+	display: inline-block;
+	
+}
+
+div#redes{
+	margin-left: 300px;
+	float: left;
+}
+
+div#contato{
+	margin-left: 400px;
+	clear: right;
+	float: right;
+}
+
+div#redes h1{
+	color:white;
+	font-family:Arial, Cambria ;
+	font-size: 16px;	
+}
+
+
+div#redes p{
+		color:white;
+	font-family:Arial, Cambria ;
+}
+div#redes a {
+	color:white;
+	text-decoration:none;
+}
+div#redes a:hover {
+		color:black;
+	text-decoration:underline;
+}
+
+div#contato h1{
+	color:white;
+	font-family:Arial, Cambria ;
+	font-size: 16px;	
+}
+
+iframe {
+	margin-top: -20px;
+}
+
+
+
+
+
+/* final do rodape*/
+
+* {
+    /*transição*/
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
